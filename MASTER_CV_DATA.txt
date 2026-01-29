@@ -1,0 +1,261 @@
+================================================================================
+MASTER CV DATA - CONSOLIDATED & STRUCTURED
+================================================================================
+Name: Konstantinos Kanellopoulos
+Last Updated: January 29, 2026
+
+================================================================================
+PERSONAL INFORMATION
+================================================================================
+Full Name: Konstantinos Kanellopoulos
+Date of Birth: 03/05/2000 (25 years old)
+Location: Patras, Greece 26333
+Address: Κομνηνών 22, 26333 Πάτρα, Ελλάδα (or Αγιατριάδα, Πάτρα)
+Phone: +30 698 415 6574 (or +306984156574)
+Email: kanell.con00@gmail.com / kanellopouloskonstantinos00@gmail.com / kanellopouloskonstantinos00@gmail.com
+LinkedIn: [To be added if available]
+
+================================================================================
+LANGUAGES
+================================================================================
+Greek: Native Speaker
+English: C1 (Advanced) - Fluent
+
+================================================================================
+EDUCATION
+================================================================================
+CURRENT:
+- BSc Computer Science
+  Institution: University of the People - Pasadena, California (USA)
+  Status: Degree Seeking Student / Ongoing (Started March 2024 - Expected completion: 2027)
+  Duration: 2024 - now
+
+- Associate in Business Administration
+  Status: Degree Seeking Student / Ongoing (Expected completion: 2027)
+  Duration: 2024 - now
+
+COMPLETED:
+- EPAS Computer Technician Certification
+  Duration: 2020 - 2022
+  Status: Completed
+
+- 7th General Lyceum of Patras (High School Diploma)
+  Graduated: 2018
+  Location: Patras, Greece
+
+================================================================================
+PROFESSIONAL CERTIFICATIONS & QUALIFICATIONS
+================================================================================
+TECH & PROGRAMMING:
+- Google Cybersecurity (Google Career Certificate)
+- Google UX/UI Design (Google Career Certificate)
+- Google Digital Marketing and E-Commerce (Google Career Certificate)
+- Python Programming Language (ANKA)
+- UNICERT - Windows Office Suite (Primary IT Certification)
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+HOSPITALITY SYSTEMS:
+- Pylon PMS (Property Management System)
+- HotelBrain (Hotel Management)
+- Basic inventory and customer data management
+
+PROGRAMMING & IT:
+- Python Programming
+- Networking fundamentals
+- System troubleshooting
+- IT Support and troubleshooting
+
+OFFICE & BUSINESS TOOLS:
+- Microsoft Office Suite (Word, Excel, PowerPoint)
+- Google Workspace
+- WordPress CMS (Content Management)
+- Cloud system archiving and management
+
+GENERAL SKILLS:
+- Customer relations and guest management
+- Check-in/Check-out procedures
+- Multitasking in fast-paced environments
+- Cross-departmental coordination
+- Website content management and updates
+- Problem-solving in technical and customer-facing scenarios
+
+================================================================================
+PROFESSIONAL EXPERIENCE (Chronological - Most Recent First)
+================================================================================
+
+POSITION 1: Sales Agent - Telecommunications
+Company: iCALL
+Product: Vodafone Telecommunication Packages
+Location: [To be specified]
+Duration: 2025 (August 2025 – December 2025 / 3.5 months)
+Key Responsibilities:
+  - Sales of Vodafone telecommunications packages
+  - Customer consultations and needs assessment
+  - Package recommendations and upselling
+  - Customer relationship management
+  - Sales target achievement
+Skills Applied: Sales, Customer Service, Telecommunications Knowledge, Client Relationship Management, Sales Pitch
+
+---
+
+POSITION 2: Ski Technician
+Company: Tsakiris Ski Rentals
+Location: Bansko, Bulgaria
+Duration: 2024 – 2025 (Ongoing/Recent)
+Key Responsibilities:
+  - Provided technical and customer support for ski equipment and rentals
+  - Assisted customers with technical fitting, issue resolution, and safety instructions
+  - Ski equipment technical support
+Skills Applied: Technical Support, Customer Service, Equipment Management
+
+---
+
+POSITION 3: Check-in/Check-out Assistant
+Company: BlackSeaHolidayRentals
+Location: Bansko, Bulgaria
+Duration: 2023 – 2024 (December 2023 - April 2024)
+Key Responsibilities:
+  - Handled guest arrivals and departures (check-in/out on apartments)
+  - Guest information management
+  - Coordinated communication between departments for guest needs
+  - Managed apartment check-in procedures
+Skills Applied: Guest Management, Operations Coordination, Customer Service
+
+---
+
+POSITION 4: Front Desk Agent
+Company: Finikas Beach Hotel (Legal name: ΕΛΕΝΗ ΚΑΙ ΝΙΚΟΛΑΟΣ ΠΡΟΜΠΟΝΑΣ ΟΕ - AΦM: 097928030)
+Location: Pyrgaki, Naxos, Greece
+Duration: 2023 (June - July 2023)
+Key Responsibilities:
+  - Managed check-in/check-out processes and guest inquiries
+  - Used Pylon PMS (HotelBrain) for reservations and guest data
+  - Acted as hotel operations coordinator
+  - Processed bookings and payments
+  - Supported cross-departmental operations during peak season
+Skills Applied: PMS Operation, Guest Services, Booking Management, Operations Coordination
+
+---
+
+POSITION 5: Receptionist (Afternoon Shift)
+Company: Pantelia Suites (Legal name: ΔΥΟ ΔΕΛΦΙΝΕΣ ΑΝΟΝ. ΤΟΥΡΙΣΤΙΚΗ ΞΕΝΟΔΟΧΕΙΑΚΗ ΚΑΤΑΣΚΕΥΑΣΤΙΚΗ ΕΤΑΙΡΕΙΑ)
+Location: Fira, Santorini, Greece
+Duration: 2023 (April - May 2023)
+Key Responsibilities:
+  - Hired as seasonal receptionist responsible for managing afternoon hotel operations
+  - Performed full-service hotel operations during evening hours
+  - Check-in/out management
+  - Guest support and inquiry handling
+  - Bellhop duties
+  - Basic housekeeping (flower watering, plant maintenance)
+  - Pool and hot tub cleaning
+  - Laundry management
+  - Meal preparation and service
+  - Bartending
+  - Room service
+  - Space and equipment maintenance
+  - Operated Pylon PMS (HotelBrain)
+Skills Applied: Multi-tasking, PMS Operation, Housekeeping, Food & Beverage, Guest Services, Operations Management
+
+---
+
+POSITION 6: Content Management & IT Support Assistant
+Company: Region of Western Greece (Περιφέρεια Δυτικής Ελλάδας)
+Project: "Citizen's Guide" (Οδηγός του Πολίτη) / Digital Governance Department (Διεύθυνση Ψηφιακής Διακυβέρνησης)
+Location: Patras, Greece
+Duration: 2021 – 2022 (June 2021 - June 2022)
+Key Responsibilities:
+  - Managed and updated website content using WordPress CMS for Citizen's Guide portal
+  - Content and structure management for the Guide of the Region of Western Greece
+  - Organized public-facing digital information, ensuring accuracy and accessibility
+  - Maintenance of Citizen's Guide website
+  - Archiving in the cloud system of the public entity
+  - Data entry and management of digital documents
+  - Provided basic IT support to colleagues (troubleshooting software and device issues)
+  - Collaborated with public officials and internal teams
+  - Maintained digital service standards
+Skills Applied: WordPress, Content Management, Data Entry, IT Support, Cloud Systems, Web Maintenance, Digital Document Management
+
+---
+
+POSITION 7: Food Delivery Driver
+Company: Goody's Burger House (GOODY'S BURGER HOUSE)
+Location: Patras, Greece
+Duration: 2022 – 2023 (September 2022 - April 2023)
+Key Responsibilities:
+  - Handled food orders and delivery logistics
+  - Delivery driver operations
+  - Customer communication
+Skills Applied: Customer Service, Logistics, Order Management
+
+================================================================================
+LICENSES & CREDENTIALS
+================================================================================
+DRIVING LICENSES:
+- Car (Category B)
+- 125cc Motorcycle (Category A1)
+- Speedboat
+
+DRONE OPERATOR:
+- Drone Operator License (A1/A2/A3)
+
+================================================================================
+INTERESTS & HOBBIES
+================================================================================
+- Kiteboarding
+- Skiing
+- Emerging technology in business and healthcare
+- Technology and innovation
+
+================================================================================
+SOFT SKILLS (Inferred from Experience)
+================================================================================
+- Customer-oriented and adaptable
+- Proactive team player
+- Strong multitasking abilities
+- Problem-solving capabilities
+- Communication and interpersonal skills
+- Fast-paced environment management
+- Cross-departmental collaboration
+- Technological aptitude
+- Hospitality and guest relations expertise
+
+================================================================================
+PROFESSIONAL PROFILE SUMMARY
+================================================================================
+Adaptable and customer-oriented professional with hands-on experience in:
+- Hospitality and guest services (seasonal and permanent roles in Greece and Bulgaria)
+- Technical support and IT assistance
+- Digital content management
+- E-commerce and digital platforms
+- Customer-facing operations in fast-paced environments
+
+Technologically adept with certifications in Python, UX/UI design, digital marketing, 
+cybersecurity, and automation. Fluent in English (C1 level) with native Greek proficiency. 
+Currently pursuing a degree in Computer Science and Business Administration.
+
+Seeking roles in: Customer Support, IT Support, ERP/PMS Systems Administration, Technology 
+Services, or Digital Operations.
+
+================================================================================
+END OF MASTER CV DATA
+================================================================================
+<div class="experience-item">
+                <div class="item-header">
+                    <div>
+                        <h3>Check-in/Check-out Assistant</h3>
+                        <p class="company">BlackSeaHolidayRentals - Bansko, Bulgaria</p>
+                    </div>
+                    <span class="date">Dec 2023 - Apr 2024</span>
+                </div>
+                <ul>
+                    <li>Handled guest arrivals and departures (check-in/out on apartments)</li>
+                    <li>Guest information management and coordinated communication between departments</li>
+                </ul>
+                <div class="skills-applied">
+                    <span class="skill-tag">Guest Management</span>
+                    <span class="skill-tag">Operations Coordination</span>
+                </div>
+            </div>
