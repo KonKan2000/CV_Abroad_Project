@@ -167,15 +167,19 @@ body {
 
 .qr-link {
     display: inline-flex;
+    width: 140px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
     background: white;
-    padding: 8px;
-    border-radius: 12px;
+    padding: 10px;
+    border-radius: 50%;
     box-shadow: var(--shadow-md);
 }
 
 .qr-image {
-    width: 120px;
-    height: 120px;
+    width: 108px;
+    height: 108px;
     display: block;
     border-radius: 8px;
 }
@@ -550,8 +554,14 @@ body {
     }
 
     .qr-image {
-        width: 110px;
-        height: 110px;
+        width: 96px;
+        height: 96px;
+    }
+
+    .qr-link {
+        width: 124px;
+        height: 124px;
+        padding: 9px;
     }
 
     .profile-section {
