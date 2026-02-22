@@ -112,6 +112,27 @@
     .contact-item a {
         color: white;
         text-decoration: none;
+        word-break: break-word;
+    }
+
+    .contact-item a.external-link {
+        text-decoration: underline;
+        text-underline-offset: 1px;
+    }
+
+    .contact-item a.external-link::after {
+        content: " (" attr(href) ")";
+        display: inline;
+        font-size: 7pt;
+        color: rgba(255, 255, 255, 0.95);
+    }
+
+    a[href]::after {
+        content: "" !important;
+    }
+
+    .contact-item a.external-link::after {
+        content: " (" attr(href) ")" !important;
     }
 
     /* ===== SECTIONS ===== */
