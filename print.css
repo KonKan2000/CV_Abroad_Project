@@ -158,6 +158,7 @@
         background: white;
         padding: 5px;
         border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.9);
         text-decoration: none;
     }
 
