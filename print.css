@@ -135,6 +135,34 @@
         content: " (" attr(href) ")" !important;
     }
 
+    .qr-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+    }
+
+    .qr-label {
+        font-size: 7pt;
+        font-weight: 600;
+        color: white;
+    }
+
+    .qr-link {
+        display: inline-flex;
+        background: white;
+        padding: 4px;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+
+    .qr-image {
+        width: 54px;
+        height: 54px;
+        display: block;
+    }
+
     /* ===== SECTIONS ===== */
     .section {
         padding: 8px 20px 10px 20px;
