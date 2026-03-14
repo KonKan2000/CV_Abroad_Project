@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantinos Kanellopoulos - One Page CV</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 8mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #0f172a;
+            background: #eef2f7;
+            line-height: 1.32;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .page {
+            width: 194mm;
+            min-height: 281mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 7mm;
+            border: 1px solid #d9e2ef;
+        }
+
+        .header {
+            border-bottom: 2px solid #1e3a8a;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
+        }
+
+        .header-top {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: start;
+        }
+
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .profile-photo {
+            width: 33mm;
+            height: 42mm;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        .qr-box {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 5px;
+            align-items: center;
+            width: 100%;
+            border: 1px solid #c9d6e6;
+            border-radius: 8px;
+            padding: 4px;
+            background: #f3f7fc;
+        }
+
+        .qr-box img {
+            width: 14mm;
+            height: 14mm;
+            border-radius: 3px;
+            border: 1px solid #d6deea;
+            background: #fff;
+        }
+
+        .qr-text {
+            font-size: 9px;
+            line-height: 1.2;
+            color: #475569;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+        }
+
+        .qr-text strong {
+            display: block;
+            color: #24476b;
+            margin-bottom: 1px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 26px;
+            color: #0b295f;
+            letter-spacing: 0.2px;
+        }
+
+        .role {
+            margin: 2px 0 4px;
+            font-size: 14px;
+            color: #1e3a8a;
+            font-weight: 700;
+        }
+
+        .contact {
+            font-size: 12px;
+            color: #334155;
+        }
+
+        .contact span {
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1.65fr 1fr;
+            gap: 10px;
+        }
+
+        .section {
+            margin-bottom: 8px;
+        }
+
+        .section h2 {
+            margin: 0 0 4px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: #0b295f;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 2px;
+        }
+
+        .summary {
+            font-size: 10.9px;
+            color: #1f2937;
+        }
+
+        .job {
+            margin-bottom: 5px;
+        }
+
+        .job-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            font-size: 11.6px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .job-company {
+            font-size: 11px;
+            color: #1d4c8f;
+            font-weight: 600;
+            margin: 1px 0 2px;
+        }
+
+        ul {
+            margin: 2px 0 0;
+            padding-left: 16px;
+        }
+
+        li {
+            margin: 0 0 1px;
+            font-size: 10.4px;
+            color: #334155;
+        }
+
+        .small-list {
+            margin: 0;
+            padding-left: 14px;
+        }
+
+        .small-list li {
+            font-size: 10.8px;
+            margin-bottom: 1px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 3px;
+        }
+
+        .tag {
+            border: 1px solid #cbd5e1;
+            border-radius: 999px;
+            padding: 2px 7px;
+            font-size: 10px;
+            color: #0f3b73;
+            background: #f8fafc;
+            font-weight: 600;
+        }
+
+        .split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .muted {
+            color: #475569;
+            font-size: 10.6px;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                background: #fff;
+            }
+
+            .page {
+                width: 100%;
+                min-height: auto;
+                border: 0;
+                padding: 14px;
+            }
+
+            .grid,
+            .split,
+            .header-top {
+                grid-template-columns: 1fr;
+            }
+
+            .header-right {
+                align-items: flex-start;
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .page {
+                margin: 0;
+                border: 0;
+                box-shadow: none;
+                width: auto;
+                min-height: 281mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="page">
+        <header class="header">
+            <div class="header-top">
+                <div>
+                    <h1>Konstantinos Kanellopoulos</h1>
+                    <p class="role">IT Support Assistant | Customer Support Specialist</p>
+                    <p class="contact">
+                        <span>Patras, Greece</span>
+                        <span>+30 698 415 6574</span>
+                        <span>kanell.con00@gmail.com</span>
+                        <span>Greek (Native), English (C1)</span>
+                    </p>
+                </div>
+                <div class="header-right">
+                    <img class="profile-photo" src="../profile-photo.png" alt="Konstantinos Kanellopoulos profile photo">
+                    <div class="qr-box">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fkonkan2000.github.io%2FCV_Abroad_Project%2FIT_Support_CV%2F" alt="QR code for live CV">
+                        <div class="qr-text">
+                            <strong>Live CV</strong>
+                            <br>
+                            konkan2000.github.io/CV_Abroad_Project/IT_Support_CV/
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                Tech-oriented support professional with practical experience in first-level IT support, digital content operations, and customer-facing service roles. Skilled in troubleshooting routine user issues, handling high-volume communication, maintaining records in digital systems, and coordinating across teams to close requests quickly and clearly.
+            </p>
+        </section>
+
+        <div class="grid">
+            <section>
+                <section class="section">
+                    <h2>Experience</h2>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Content Management & IT Support Assistant</span>
+                            <span>Jun 2021 - Jun 2022</span>
+                        </div>
+                        <p class="job-company">Region of Western Greece</p>
+                        <ul>
+                            <li>Managed WordPress website content and organized cloud-based archives for internal teams.</li>
+                            <li>Provided first-level IT support and basic troubleshooting for routine user requests.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Sales Agent - Telecommunications</span>
+                            <span>Aug 2025 - Dec 2025</span>
+                        </div>
+                        <p class="job-company">iCALL (Vodafone Packages)</p>
+                        <ul>
+                            <li>Handled high-volume customer communication and service inquiries with clear structured scripts.</li>
+                            <li>Recommended package solutions and improved objection handling and customer satisfaction.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Front Desk Agent</span>
+                            <span>Jun 2023 - Jul 2023</span>
+                        </div>
+                        <p class="job-company">Finikas Beach Hotel, Naxos (GR)</p>
+                        <ul>
+                            <li>Managed front-line support, bookings, and payment-related requests under high time pressure.</li>
+                            <li>Used HotelBrain PMS to maintain accurate customer records and internal handovers.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Additional Roles</span>
+                            <span>2022 - 2025</span>
+                        </div>
+                        <p class="job-company">Pantelia Suites, Tsakiris Ski Rentals, Goody's Burger House</p>
+                        <ul>
+                            <li><strong>Receptionist:</strong> independent shift operations and customer request handling.</li>
+                            <li><strong>Ski Technician:</strong> technical guidance and in-person customer support.</li>
+                            <li><strong>Delivery Driver:</strong> timing coordination and customer communication.</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+
+            <section>
+                <section class="section">
+                    <h2>Core Skills</h2>
+                    <div class="tags">
+                        <span class="tag">Technical Troubleshooting</span>
+                        <span class="tag">Customer Communication</span>
+                        <span class="tag">WordPress Management</span>
+                        <span class="tag">Cloud File Organization</span>
+                        <span class="tag">Service Recovery</span>
+                        <span class="tag">CRM/PMS Workflows</span>
+                        <span class="tag">Cross-team Coordination</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Education</h2>
+                    <ul class="small-list">
+                        <li>BSc Computer Science, University of the People (2024 - ongoing)</li>
+                        <li>Associate in Business Administration, University of the People (2024 - ongoing)</li>
+                        <li>EPAS Computer Technician (2020 - 2022)</li>
+                        <li>7th General Lyceum of Patras (2018)</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Certifications</h2>
+                    <ul class="small-list">
+                        <li>Google Cybersecurity</li>
+                        <li>Google UX/UI Design</li>
+                        <li>Google Digital Marketing and E-Commerce</li>
+                        <li>Google IT Support</li>
+                        <li>Python Programming Language (ANKA)</li>
+                        <li>UNICERT Windows Office Suite</li>
+                    </ul>
+                </section>
+
+                <section class="section split">
+                    <div>
+                        <h2>Licenses</h2>
+                        <ul class="small-list">
+                            <li>Car (B)</li>
+                            <li>Motorcycle 125cc (A1)</li>
+                            <li>Speedboat</li>
+                            <li>Drone (A1/A2/A3)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Links</h2>
+                        <p class="muted">Live CV:</p>
+                        <p class="muted">konkan2000.github.io/CV_Abroad_Project/IT_Support_CV/</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </article>
+</body>
+</html>
