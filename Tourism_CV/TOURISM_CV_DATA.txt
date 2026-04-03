@@ -60,9 +60,11 @@ EDUCATION
 
 CERTIFICATIONS
 - Google Cybersecurity
+- TryHackMe Cybersecurity 101
 - Google UX/UI Design
 - Google Digital Marketing and E-Commerce
 - Google IT Support
+- Google Data Analytics (ongoing)
 - Python Programming Language (ANKA)
 - UNICERT Windows Office Suite
 

@@ -48,8 +48,10 @@ PROFESSIONAL CERTIFICATIONS & QUALIFICATIONS
 ================================================================================
 TECH & PROGRAMMING:
 - Google Cybersecurity (Google Career Certificate)
+- TryHackMe Cybersecurity 101 (TryHackMe Certificate)
 - Google UX/UI Design (Google Career Certificate)
 - Google Digital Marketing and E-Commerce (Google Career Certificate)
+- Google Data Analytics (Google Career Certificate - ongoing)
 - Python Programming Language (ANKA)
 - UNICERT - Windows Office Suite (Primary IT Certification)
 
@@ -225,19 +227,7 @@ SOFT SKILLS (Inferred from Experience)
 ================================================================================
 PROFESSIONAL PROFILE SUMMARY
 ================================================================================
-Adaptable and customer-oriented professional with hands-on experience in:
-- Hospitality and guest services (seasonal and permanent roles in Greece and Bulgaria)
-- Technical support and IT assistance
-- Digital content management
-- E-commerce and digital platforms
-- Customer-facing operations in fast-paced environments
-
-Technologically adept with certifications in Python, UX/UI design, digital marketing, 
-cybersecurity, and automation. Fluent in English (C1 level) with native Greek proficiency. 
-Currently pursuing a degree in Computer Science and Business Administration.
-
-Seeking roles in: Customer Support, IT Support, ERP/PMS Systems Administration, Technology 
-Services, or Digital Operations.
+Tech-oriented support and operations professional with experience in first-level IT support, customer communication, digital content management, and workflow coordination. Comfortable working with internal systems, handling routine troubleshooting, maintaining accurate records, and supporting both customers and teams in fast-paced environments. Currently completing a BSc in Computer Science, with additional training in cybersecurity, IT support, UX/UI, digital marketing, and productivity tools. Adaptable, detail-oriented, and eager to grow in support, operations, analysis, quality, or technology-related roles.
 
 ================================================================================
 END OF MASTER CV DATA
