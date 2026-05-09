@@ -1,0 +1,107 @@
+CV DATA
+
+Candidate: Konstantinos Kanellopoulos
+Role Focus: Junior SOC Analyst / Cybersecurity Analyst
+Location: Patras, Greece
+Phone: +30 698 415 6574
+Email: kanell.con00@gmail.com
+Date of Birth: 03/05/2000
+Languages: Greek (Native), English (C1)
+GitHub: konkan2000
+TryHackMe: Live Profile
+
+PROFESSIONAL SUMMARY
+Computer Science student and self-directed cybersecurity learner with hands-on experience in IT support, digital infrastructure, and customer-facing technical roles. Focused on junior SOC work, including alert triage, log analysis, incident handling, threat detection, and basic vulnerability awareness. Currently building practical defensive security skills through TryHackMe, daily OWASP Top 10 practice, and structured labs in a personal home environment. Holds Google Cybersecurity and IT Support certifications. Seeking a junior SOC analyst or cybersecurity internship role where I can apply and grow these skills in a professional environment.
+
+SECURITY TRAINING & PRACTICE (PRIMARY FOCUS)
+
+1) SOC Foundations & Defensive Security - TryHackMe
+Ongoing Professional Development
+- Progressing through TryHackMe's defensive security and SOC-relevant learning paths — 15 hands-on labs completed, profile publicly visible
+- Daily practice reviewing logs, identifying suspicious activity, and documenting findings from personal home lab exercises
+- Practical experience with alert triage, vulnerability awareness, manual validation, and remediation workflows
+- Hands-on lab experience with incident scenarios, endpoint checks, and basic investigation tasks
+
+2) Content Management & IT Support Assistant - Region of Western Greece
+Duration: Jun 2021 - Jun 2022
+- Provided first-level IT support for routine user requests and basic troubleshooting
+- Maintained and updated website content in WordPress based on department requirements
+- Supported digital document archiving and cloud file organisation for internal teams
+- Gained foundational understanding of infrastructure, system management, and user-impacting issues useful in SOC work
+
+CERTIFICATIONS & CREDENTIALS
+
+- Google Cybersecurity Certificate — covers threat detection, network security, Linux, and Python for security automation
+- TryHackMe Cybersecurity 101 certificate
+- Google IT Support (provides foundation for infrastructure and support workflows)
+- Python Programming Language (ANKA)
+- Google UX/UI Design
+- Google Digital Marketing & E-Commerce
+- Google Data Analytics (ongoing)
+
+ADDITIONAL WORK EXPERIENCE
+
+3) Sales Agent - Telecommunications - iCALL (Vodafone Packages)
+Duration: Aug 2025 - Dec 2025
+- Handled high-volume customer communication, service inquiries, and package recommendations
+- Resolved objections and followed structured scripts to improve conversion and satisfaction
+
+4) Front Desk Agent - Finikas Beach Hotel (Pyrgaki, Naxos, Greece)
+Duration: Jun 2023 - Jul 2023
+- Managed front-line customer support, bookings, and payment-related issues
+- Used HotelBrain PMS to maintain accurate customer records and requests
+- Coordinated with internal teams for fast issue resolution
+
+5) Receptionist (Afternoon Shift) - Pantelia Suites
+Duration: Apr 2023 - May 2023
+- Handled customer requests independently during afternoon operations
+
+6) Ski Technician - Tsakiris Ski Rentals
+Duration: 2024 - 2025
+- Provided technical guidance and practical customer support
+
+7) Food Delivery Driver - Goody's Burger House
+Duration: Sep 2022 - Apr 2023
+- Managed delivery timing, route priorities, and customer communication
+
+EDUCATION
+- BSc Computer Science, University of the People (2024 - ongoing)
+- Associate in Business Administration, University of the People (2024 - ongoing)
+  Note: The Associate programme is a structured prerequisite pathway embedded within the BSc at University of the People — both are completed concurrently
+- EPAS Computer Technician (2020 - 2022)
+- 7th General Lyceum of Patras (Graduated 2018)
+
+SECURITY & TECHNICAL SKILLS
+
+SOC Focus:
+- Alert triage and log analysis
+- Incident handling and documentation
+- Threat detection and basic investigation
+- Vulnerability awareness and remediation support
+- OWASP Top 10 familiarity
+
+IT & Infrastructure:
+- Technical troubleshooting and system analysis
+- WordPress content management
+- Cloud file organization and infrastructure
+- Linux fundamentals (via Google Cybersecurity cert)
+- Python for security automation (basics)
+- Windows system administration basics
+
+Soft Skills:
+- Customer communication and technical explanation
+- Problem-solving under pressure
+- Cross-team coordination
+- Service recovery and issue resolution
+- Remote collaboration (Microsoft Teams)
+
+LICENSES
+- Car (Category B)
+- 125cc Motorcycle (Category A1)
+- Speedboat
+- Drone Operator (A1/A2/A3)
+
+LINKS & PROFILES
+- Live CV: konkan2000.github.io/CV_Abroad_Project/Cybersecurity_CV/
+- GitHub: github.com/konkan2000
+- TryHackMe: tryhackme.com/p/konkan2000

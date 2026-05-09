@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantinos Kanellopoulos - SOC CV</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 8mm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #0f172a;
+            background: #eef2f7;
+            line-height: 1.32;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .page {
+            width: 194mm;
+            min-height: 281mm;
+            margin: 0 auto;
+            background: #fff;
+            padding: 7mm;
+            border: 1px solid #d9e2ef;
+        }
+
+        .header {
+            border-bottom: 2px solid #1e3a8a;
+            padding-bottom: 6px;
+            margin-bottom: 8px;
+        }
+
+        .header-top {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: start;
+        }
+
+        .header-right {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .profile-photo {
+            width: 33mm;
+            height: 42mm;
+            object-fit: cover;
+            object-position: center top;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        .qr-box {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 5px;
+            align-items: center;
+            width: 100%;
+            border: 1px solid #c9d6e6;
+            border-radius: 8px;
+            padding: 4px;
+            background: #f3f7fc;
+        }
+
+        .qr-box img {
+            width: 14mm;
+            height: 14mm;
+            border-radius: 3px;
+            border: 1px solid #d6deea;
+            background: #fff;
+        }
+
+        .qr-text {
+            font-size: 9px;
+            line-height: 1.2;
+            color: #475569;
+            max-width: 100%;
+            overflow-wrap: anywhere;
+        }
+
+        .qr-text strong {
+            display: block;
+            color: #24476b;
+            margin-bottom: 1px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 26px;
+            color: #0b295f;
+            letter-spacing: 0.2px;
+        }
+
+        .role {
+            margin: 2px 0 4px;
+            font-size: 14px;
+            color: #1e3a8a;
+            font-weight: 700;
+        }
+
+        .contact {
+            font-size: 12px;
+            color: #334155;
+        }
+
+        .contact span {
+            margin-right: 10px;
+            white-space: nowrap;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1.65fr 1fr;
+            gap: 10px;
+        }
+
+        .section {
+            margin-bottom: 8px;
+        }
+
+        .section h2 {
+            margin: 0 0 4px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: #0b295f;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 2px;
+        }
+
+        .summary {
+            font-size: 10.9px;
+            color: #1f2937;
+        }
+
+        .job {
+            margin-bottom: 5px;
+        }
+
+        .job-head {
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            font-size: 11.6px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .job-company {
+            font-size: 11px;
+            color: #1d4c8f;
+            font-weight: 600;
+            margin: 1px 0 2px;
+        }
+
+        ul {
+            margin: 2px 0 0;
+            padding-left: 16px;
+        }
+
+        li {
+            margin: 0 0 1px;
+            font-size: 10.4px;
+            color: #334155;
+        }
+
+        .small-list {
+            margin: 0;
+            padding-left: 14px;
+        }
+
+        .small-list li {
+            font-size: 10.8px;
+            margin-bottom: 1px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-top: 3px;
+        }
+
+        .tag {
+            border: 1px solid #cbd5e1;
+            border-radius: 999px;
+            padding: 2px 7px;
+            font-size: 10px;
+            color: #0f3b73;
+            background: #f8fafc;
+            font-weight: 600;
+        }
+
+        .split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .muted {
+            color: #475569;
+            font-size: 10.6px;
+        }
+
+        a {
+            color: #1d4c8f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 900px) {
+            body {
+                background: #fff;
+            }
+
+            .page {
+                width: 100%;
+                min-height: auto;
+                border: 0;
+                padding: 14px;
+            }
+
+            .grid,
+            .split,
+            .header-top {
+                grid-template-columns: 1fr;
+            }
+
+            .header-right {
+                align-items: flex-start;
+            }
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .page {
+                margin: 0;
+                border: 0;
+                box-shadow: none;
+                width: auto;
+                min-height: 281mm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="page">
+        <header class="header">
+            <div class="header-top">
+                <div>
+                    <h1>Konstantinos Kanellopoulos</h1>
+                    <p class="role">Junior SOC Analyst | Cybersecurity Analyst</p>
+                    <p class="contact">
+                        <span>Patras, Greece</span>
+                        <span>+30 698 415 6574</span>
+                        <span>kanell.con00@gmail.com</span>
+                        <span>Greek (Native), English (C1)</span>
+                    </p>
+                </div>
+                <div class="header-right">
+                    <img class="profile-photo" src="../profile-photo.png" alt="Konstantinos Kanellopoulos profile photo">
+                    <div class="qr-box">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fkonkan2000.github.io%2FCV_Abroad_Project%2FCybersecurity_CV%2F" alt="QR code for live CV">
+                        <div class="qr-text">
+                            <strong>Live CV</strong>
+                            <br>
+                            konkan2000.github.io/CV_Abroad_Project/Cybersecurity_CV/
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                Computer Science student and self-directed cybersecurity learner with hands-on experience in IT support, digital infrastructure, and customer-facing technical roles. Focused on junior SOC work, including alert triage, log analysis, incident handling, threat detection, and basic vulnerability awareness. Currently building practical defensive security skills through TryHackMe, daily OWASP Top 10 practice, and structured labs in a personal home environment. Holds Google Cybersecurity and IT Support certifications. Seeking a junior SOC analyst or cybersecurity internship role where I can apply and grow these skills in a professional environment.
+            </p>
+        </section>
+
+        <div class="grid">
+            <section>
+                <section class="section">
+                    <h2>Security Training</h2>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>SOC Foundations & Defensive Security</span>
+                            <span>Ongoing</span>
+                        </div>
+                        <p class="job-company">TryHackMe - 15+ Labs Completed</p>
+                        <ul>
+                            <li>Progressing through defensive security and SOC-relevant learning paths with publicly visible profile.</li>
+                            <li>Daily practice reviewing logs, identifying suspicious activity, and documenting findings from personal home lab exercises.</li>
+                            <li>Practical experience in alert triage, vulnerability awareness, and security remediation workflows.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Google Cybersecurity Certificate</span>
+                            <span>Completed 2024</span>
+                        </div>
+                        <p class="job-company">Google Career Certificates</p>
+                        <ul>
+                            <li>Threat detection, incident response, and network security fundamentals.</li>
+                            <li>Linux fundamentals and Python basics for security automation.</li>
+                            <li>Practical knowledge of security tools, log analysis, and defensive practices.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>IT Support Assistant</span>
+                            <span>Jun 2021 - Jun 2022</span>
+                        </div>
+                        <p class="job-company">Region of Western Greece</p>
+                        <ul>
+                            <li>First-level IT support and basic troubleshooting for routine user requests.</li>
+                            <li>Digital document archiving and cloud file organization for internal teams.</li>
+                            <li>Maintained infrastructure and security best practices for content systems.</li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-head">
+                            <span>Additional Technical Roles</span>
+                            <span>2021 - 2025</span>
+                        </div>
+                        <p class="job-company">Sales, Front Desk, Hospitality</p>
+                        <ul>
+                            <li><strong>Sales Agent:</strong> High-volume customer communication and technical service inquiries.</li>
+                            <li><strong>Front Desk:</strong> PMS systems, customer records, and operations coordination.</li>
+                            <li><strong>Technical Support:</strong> Customer-facing technical guidance and troubleshooting.</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+
+            <section>
+                <section class="section">
+                    <h2>Security Skills</h2>
+                    <div class="tags">
+                        <span class="tag">Alert Triage</span>
+                        <span class="tag">Log Analysis</span>
+                        <span class="tag">Threat Detection</span>
+                        <span class="tag">Incident Response</span>
+                        <span class="tag">Vulnerability Awareness</span>
+                        <span class="tag">OWASP Top 10</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Education</h2>
+                    <ul class="small-list">
+                        <li>BSc Computer Science, University of the People (2024 - ongoing)</li>
+                        <li>Associate in Business Administration, UoPeople (2024 - ongoing)</li>
+                        <li>EPAS Computer Technician (2020 - 2022)</li>
+                        <li>7th General Lyceum of Patras (2018)</li>
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Certifications</h2>
+                    <ul class="small-list">
+                        <li>Google Cybersecurity Certificate</li>
+                        <li>TryHackMe Cybersecurity 101</li>
+                        <li>Google IT Support</li>
+                        <li>Python Programming Language (ANKA)</li>
+                        <li>Google UX/UI Design</li>
+                        <li>Google Digital Marketing & E-Commerce</li>
+                        <li>Google Data Analytics (ongoing)</li>
+                        <li>UNICERT Windows Office Suite</li>
+                    </ul>
+                </section>
+
+                <section class="section split">
+                    <div>
+                        <h2>Licenses</h2>
+                        <ul class="small-list">
+                            <li>Car (B)</li>
+                            <li>Motorcycle 125cc (A1)</li>
+                            <li>Speedboat</li>
+                            <li>Drone (A1/A2/A3)</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2>Links</h2>
+                        <p class="muted">
+                            <a href="https://github.com/konkan2000" target="_blank" rel="noopener noreferrer">GitHub: konkan2000</a><br>
+                            <a href="https://tryhackme.com/p/konkan2000" target="_blank" rel="noopener noreferrer">TryHackMe: konkan2000</a>
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </article>
+</body>
+</html>
